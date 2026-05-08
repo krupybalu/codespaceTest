@@ -1,0 +1,22 @@
+{
+    "name": "AL BC Dev",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-dynamics-smb.al"
+            ],
+            "settings": {
+                "al.enableCodeAnalysis": true,
+                "files.exclude": {
+                    "**/.alpackages": true,
+                    "**/.alcache": true
+                }
+            }
+        }
+    },
+    "hostRequirements": {
+        "cpus": 4,
+        "memory": "16gb"
+    }
+}

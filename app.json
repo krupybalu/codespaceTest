@@ -1,0 +1,20 @@
+{
+    "id": "a1b2c3d4-0001-0001-0001-000000000001",
+    "name": "CodespaceTest",
+    "publisher": "krupybalu",
+    "version": "1.0.0.0",
+    "brief": "AL Codespace test app",
+    "description": "Minimal AL app used to verify Codespace + AL Language extension setup.",
+    "platform": "24.0.0.0",
+    "application": "24.0.0.0",
+    "idRanges": [
+        {
+            "from": 50100,
+            "to": 50149
+        }
+    ],
+    "runtime": "13.0",
+    "features": [
+        "NoImplicitWith"
+    ]
+}
